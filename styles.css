@@ -1,0 +1,92 @@
+html{
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(207, 178, 234);
+    padding: 16px;
+    color: #ffff;
+    align-items: center;
+}
+
+.header-logo{
+    font-size: 44px;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+.header-nav ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 22px;
+    gap: 16px;
+    margin-right: 30px;
+}
+
+.header-nav a{
+    text-decoration: none;
+    color: #ffff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.header-nav a:hover{
+    font-size: 25px;
+    background-color: blueviolet;
+    
+}
+
+.imagens div{
+    margin-top: 15px;
+    width: 400px;
+    height: 220px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+}
+
+.tamanho:hover{
+    filter: grayscale(100%);
+}
+
+.tamanho{
+    height: 100%;
+    max-width: 100%;
+}
+
+.imagens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer{
+    background-color: rgb(223, 211, 234);
+    width: 100vw;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ 
+}
+
+.instagram{
+    height: 20px;
+    width: 20px;
+}
+
+.whats{
+    height: 23px;
+    width: 23px;
+}
+
